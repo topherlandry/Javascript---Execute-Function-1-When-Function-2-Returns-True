@@ -2,7 +2,7 @@
 Execute Function 1 when Function 2 Returns True
 By Cliff Simmons, http://cliffsimmons.com
 
-"Function 1 when Function 2 Returns True" or "execute_function_1_when_function_2_returns_true()" is a javascript function that can be used to execute another function or command upon the load completion of a specified array of files (currently image files and video files only). This function requires the jQuery library in order to work.
+"Function 1 when Function 2 Returns True" or "execute_function_1_when_function_2_returns_true()" is a javascript function that can be used to execute one function (Function 1) when another function (Function 2) returns a boolean value of true. This function is especially handy for firing a custom function when certain DOM activity and changes arise
 
 
 
