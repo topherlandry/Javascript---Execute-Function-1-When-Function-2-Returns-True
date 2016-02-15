@@ -1,0 +1,1 @@
+# Javascript---Execute-Function-1-When-Function-2-Returns-True
