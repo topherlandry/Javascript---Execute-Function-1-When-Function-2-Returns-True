@@ -46,18 +46,18 @@ execute_function_1_when_function_2_returns_true(
 <br/>
 <br/>
 <h2>Example Usage B</h2>
-
 Check the DOM every 5 seconds (5000 milleseconds) for the presence of one or more paragraph tags. Once one or more paragraph tags have been detected, an alert message will be created.
-
-  execute_function_1_when_function_2_returns_true(
-    function(){
-      alert( 'One or more paragraph elements are present.' );
-    },
-    function(){
-      var result = false;
-      var video_element = document.getElementsByTagName( 'p' );
-      if( video_element.length > 0 ) result = true;
-      return result;
-    },
-    5000
-  );
+```
+execute_function_1_when_function_2_returns_true(
+  function(){
+    alert( 'One or more paragraph elements are present.' );
+  },
+  function(){
+    var result = false;
+    var video_element = document.getElementsByTagName( 'p' );
+    if( video_element.length > 0 ) result = true;
+    return result;
+  },
+  5000
+);
+```
