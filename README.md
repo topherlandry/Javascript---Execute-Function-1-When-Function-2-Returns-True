@@ -1,21 +1,19 @@
-
-Execute Function 1 when Function 2 Returns True
-By Cliff Simmons, http://cliffsimmons.com
-
-"Function 1 when Function 2 Returns True" or "execute_function_1_when_function_2_returns_true()" is a javascript function that can be used to execute one function (Function 1) when another function (Function 2) returns a boolean value of true. This function is especially handy for firing a custom function when certain DOM activity and changes arise
-
-
-
-
-
-PARAMETERS
-
+<h1>Execute Function 1 when Function 2 Returns True</h1>
+By Cliff Simmons, http://cliffsimmons.com<br/>
+<br/>
+"Function 1 when Function 2 Returns True" or "execute_function_1_when_function_2_returns_true()" is a javascript function that can be used to execute one function (Function 1) when another function (Function 2) returns a boolean value of true. This function is especially handy for firing a custom function when certain DOM activity and changes arise<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2>PARAMETERS<h2>
+<code>
   execute_function_1_when_function_2_returns_true( 
     first_function_parameter, 
     second_function_parameter, 
     check_frequency_parameter
   );
-  
+</code>  
 first_function_parameter - required parameter of variable type 'function'
 The function that you would like to be executed when the function defined by the "second_function_parameter" has returned a boolean value of true.
 
