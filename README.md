@@ -14,7 +14,7 @@ execute_function_1_when_function_2_returns_true(
   check_frequency_parameter
 );
 ``` 
-first_function_parameter - required parameter of variable type 'function'
+<strong>first_function_parameter</strong> - required parameter of variable type 'function'
 The function that you would like to be executed when the function defined by the "second_function_parameter" has returned a boolean value of true.
 
 second_function_parameter - required parameter of variable type 'function'
