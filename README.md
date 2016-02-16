@@ -54,8 +54,8 @@ execute_function_1_when_function_2_returns_true(
   },
   function(){
     var result = false;
-    var video_element = document.getElementsByTagName( 'p' );
-    if( video_element.length > 0 ) result = true;
+    var paragraph_element = document.getElementsByTagName( 'p' );
+    if( paragraph_element.length > 0 ) result = true;
     return result;
   },
   5000
