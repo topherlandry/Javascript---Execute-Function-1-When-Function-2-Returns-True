@@ -15,13 +15,13 @@ execute_function_1_when_function_2_returns_true(
 );
 ``` 
 **first_function_parameter** - required parameter of variable type 'function'<br/>
-The function that you would like to be executed when the function defined by the "second_function_parameter" has returned a boolean value of true.<br/>
+*The function that you would like to be executed when the function defined by the "second_function_parameter" has returned a boolean value of true.*<br/>
 <br/>
 **second_function_parameter** - required parameter of variable type 'function'<br/>
-The function that returns a boolean value of true or false based on the conditions that this function analyses.<br/>
+*The function that returns a boolean value of true or false based on the conditions that this function analyses.*<br/>
 <br/>
 **check_frequency_parameter** - optional parameter of variable type 'number'<br/>
-The number of milliseconds that must elapse between each recursive re-firing of the "execute_function_1_when_function_2_returns_true" function before its "second_function_parameter" returns a value of true. If "execute_function_1_when_function_2_returns_true" is called without "check_frequency_parameter" defined its parameter set, then the"check_frequency_parameter" will be set to 100 (milliseconds) by default.
+*The number of milliseconds that must elapse between each recursive re-firing of the "execute_function_1_when_function_2_returns_true" function before its "second_function_parameter" returns a value of true. If "execute_function_1_when_function_2_returns_true" is called without "check_frequency_parameter" defined its parameter set, then the"check_frequency_parameter" will be set to 100 (milliseconds) by default.*
 
 
 
