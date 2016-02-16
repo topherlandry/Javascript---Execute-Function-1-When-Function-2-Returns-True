@@ -7,13 +7,13 @@ By Cliff Simmons, http://cliffsimmons.com<br/>
 <br/>
 <br/>
 <h2>PARAMETERS<h2>
-<code>
-  execute_function_1_when_function_2_returns_true( 
-    first_function_parameter, 
-    second_function_parameter, 
-    check_frequency_parameter
-  );
-</code>  
+```
+execute_function_1_when_function_2_returns_true( 
+  first_function_parameter, 
+  second_function_parameter, 
+  check_frequency_parameter
+);
+``` 
 first_function_parameter - required parameter of variable type 'function'
 The function that you would like to be executed when the function defined by the "second_function_parameter" has returned a boolean value of true.
 
