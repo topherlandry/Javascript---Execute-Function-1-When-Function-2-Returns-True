@@ -21,33 +21,31 @@ execute_function_1_when_function_2_returns_true(
 *The function that returns a boolean value of true or false based on the conditions that this function analyses.*<br/>
 <br/>
 **check_frequency_parameter** - optional parameter of variable type 'number'<br/>
-*The number of milliseconds that must elapse between each recursive re-firing of the "execute_function_1_when_function_2_returns_true" function before its "second_function_parameter" returns a value of true. If "execute_function_1_when_function_2_returns_true" is called without "check_frequency_parameter" defined its parameter set, then the"check_frequency_parameter" will be set to 100 (milliseconds) by default.*
-
-
-
-
-
-EXAMPLE USAGE A
-
+*The number of milliseconds that must elapse between each recursive re-firing of the "execute_function_1_when_function_2_returns_true" function before its "second_function_parameter" returns a value of true. If "execute_function_1_when_function_2_returns_true" is called without "check_frequency_parameter" defined its parameter set, then the"check_frequency_parameter" will be set to 100 (milliseconds) by default.*<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2>Example Usage A</h2>
 Create an alert message when one or more video elements are present DOM.
-
-  execute_function_1_when_function_2_returns_true(
-    function(){
-      alert( 'One or more video elements are present.' );
-    },
-    function(){
-      var result = false;
-      var video_element = document.getElementsByTagName( 'video' );
-      if( video_element.length > 0 ) result = true;
-      return result;
-    }
-  );
-
-  
-  
-  
-  
-EXAMPLE USAGE B
+```
+execute_function_1_when_function_2_returns_true(
+  function(){
+    alert( 'One or more video elements are present.' );
+  },
+  function(){
+    var result = false;
+    var video_element = document.getElementsByTagName( 'video' );
+    if( video_element.length > 0 ) result = true;
+    return result;
+  }
+);
+```
+<br/>
+<br/>
+<br/>
+<br/>
+<h2>Example Usage B</h2>
 
 Check the DOM every 5 seconds (5000 milleseconds) for the presence of one or more paragraph tags. Once one or more paragraph tags have been detected, an alert message will be created.
 
